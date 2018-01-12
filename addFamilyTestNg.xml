@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Selenium-TestCases">
+    <test name="alice">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="url" value="http://www.genivitycalc.com"/>
+        <parameter name="loginid" value="tapgenestest10"/>
+        <parameter name="password" value="test1234"/>
+        <parameter name="input" value="addfamilyInputs.properties"></parameter>
+        <parameter name="elementpath" value="elementpath.properties"></parameter>
+        <classes>
+            <class name="com.selenium.testcases.AddFamily" />
+        </classes>
+    </test>
+</suite>

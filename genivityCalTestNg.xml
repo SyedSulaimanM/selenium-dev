@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Selenium-TestCases">
+    <test name="alice">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="http://tapgenes.centralus.cloudapp.azure.com/#/"></parameter>
+        <parameter name="inputFile" value="alice.properties"></parameter>
+        <classes>
+            <class name="com.selenium.testcases.GenivityCalculator" />
+        </classes>
+    </test>
+    <test name="bob">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="http://tapgenes.centralus.cloudapp.azure.com/#/"></parameter>
+        <parameter name="inputFile" value="bob.properties"></parameter>
+        <classes>
+            <class name="com.selenium.testcases.GenivityCalculator" />
+        </classes>
+    </test>
+    <test name="claire">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="http://tapgenes.centralus.cloudapp.azure.com/#/"></parameter>
+        <parameter name="inputFile" value="claire.properties"></parameter>
+        <classes>
+            <class name="com.selenium.testcases.GenivityCalculator" />
+        </classes>
+    </test>
+    <test name="dan">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="http://tapgenes.centralus.cloudapp.azure.com/#/"></parameter>
+        <parameter name="inputFile" value="dan.properties"></parameter>
+        <classes>
+            <class name="com.selenium.testcases.GenivityCalculator" />
+        </classes>
+    </test>
+    <test name="ellen">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="http://tapgenes.centralus.cloudapp.azure.com/#/"></parameter>
+        <parameter name="inputFile" value="ellen.properties"></parameter>
+        <classes>
+            <class name="com.selenium.testcases.GenivityCalculator" />
+        </classes>
+    </test>
+    <test name="francis">
+        <parameter name="browser" value="chrome"></parameter>
+        <parameter name="url" value="http://tapgenes.centralus.cloudapp.azure.com/#/"></parameter>
+        <parameter name="inputFile" value="francis.properties"></parameter>
+        <classes>
+            <class name="com.selenium.testcases.GenivityCalculator" />
+        </classes>
+    </test>
+    ,
+</suite>
